@@ -1,8 +1,8 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1763383253
-icon.svg::CompressedTexture2D::6690462893887067604::1763379272::1763379283::1::::<><><>0<>0<>a87f7bb450d9c473dba75ae06a8ff7ae<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://scene/::1763383182
-bule.tscn::PackedScene::4267444926862181445::1763382994::0::1::::<><><>0<>0<><>::uid://dagntmg4qd6xq::::res://scene/redbutton.gd
-bulebutton.gd::GDScript::1486425238536698675::1763383182::0::1::::<>Button<><>0<>0<><>::
-bulepage.tscn::PackedScene::5524300584783860850::1763383182::0::1::::<><><>0<>0<><>::uid://vgbhayv0r3lv::::res://scene/bulebutton.gd
-redbutton.gd::GDScript::7172472209482010322::1763383168::0::1::::<>Button<><>0<>0<><>::
+::res://::1763453585
+icon.svg::CompressedTexture2D::6690462893887067604::1763449419::1763449419::1::::<><><>0<>0<>a87f7bb450d9c473dba75ae06a8ff7ae<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://scene/::1763449603
+bule.tscn::PackedScene::4267444926862181445::1763449421::0::1::::<><><>0<>0<><>::uid://dagntmg4qd6xq::::res://scene/redbutton.gd
+bulebutton.gd::GDScript::1486425238536698675::1763449421::0::1::::<>Button<><>0<>0<><>::
+bulepage.tscn::PackedScene::5524300584783860850::1763449421::0::1::::<><><>0<>0<><>::uid://vgbhayv0r3lv::::res://scene/bulebutton.gd
+redbutton.gd::GDScript::7172472209482010322::1763449421::0::1::::<>Button<><>0<>0<><>::

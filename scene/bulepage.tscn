@@ -23,17 +23,17 @@ grow_horizontal = 2
 grow_vertical = 2
 rotation = 0.0043463213
 scale = Vector2(1.9023079, 4.661801)
-color = Color(1, 0, 0, 1)
+color = Color(0.22911876, 0.52280194, 0.95372313, 1)
 
 [node name="Button" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 54.0
-offset_top = 66.0
-offset_right = 131.0
-offset_bottom = 119.0
-theme_override_colors/font_color = Color(0.12156863, 1, 1, 1)
+offset_left = 470.0
+offset_top = 274.0
+offset_right = 547.0
+offset_bottom = 327.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_font_sizes/font_size = 32
-text = "Bule 
+text = "Red
 "
 script = ExtResource("1_tkfsl")
 

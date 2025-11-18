@@ -21,17 +21,18 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(276.52356, 322.4941)
-color = Color(0, 1, 1, 1)
+color = Color(1, 0, 0, 1)
 
 [node name="Button" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 959.3979
-offset_top = 544.33655
-offset_right = 997.3979
-offset_bottom = 575.33655
+offset_left = 632.7715
+offset_top = 432.70316
+offset_right = 670.7715
+offset_bottom = 463.70316
 scale = Vector2(2.8976083, 1.8463438)
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-text = "Red"
+theme_override_colors/font_color = Color(0.045853555, 0.3116334, 0.6886754, 1)
+text = "Blue 
+"
 script = ExtResource("1_saax1")
 
 [connection signal="pressed" from="Control/Button" to="Control/Button" method="_on_pressed"]
