@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckyaonuclasfq"]
+
+[ext_resource type="Script" uid="uid://vgbhayv0r3lv" path="res://scene/bulebutton.gd" id="1_tkfsl"]
+
+[node name="Redpage" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1274.9999
+offset_top = -670.0
+offset_right = 139.568
+offset_bottom = 236.60193
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.0043463213
+scale = Vector2(1.9023079, 4.661801)
+color = Color(1, 0, 0, 1)
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 66.0
+offset_right = 131.0
+offset_bottom = 119.0
+theme_override_colors/font_color = Color(0.12156863, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+text = "Bule 
+"
+script = ExtResource("1_tkfsl")
+
+[connection signal="pressed" from="Control/Button" to="Control/Button" method="_on_blue_button_pressed"]

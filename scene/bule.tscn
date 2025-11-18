@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://b12ggu2hemh8h"]
+
+[ext_resource type="Script" uid="uid://dagntmg4qd6xq" path="res://scene/redbutton.gd" id="1_saax1"]
+
+[node name="bule" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -137.0
+offset_top = -148.0
+offset_right = -97.0
+offset_bottom = -108.0
+scale = Vector2(0.9276651, 1.0122414)
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(276.52356, 322.4941)
+color = Color(0, 1, 1, 1)
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 959.3979
+offset_top = 544.33655
+offset_right = 997.3979
+offset_bottom = 575.33655
+scale = Vector2(2.8976083, 1.8463438)
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+text = "Red"
+script = ExtResource("1_saax1")
+
+[connection signal="pressed" from="Control/Button" to="Control/Button" method="_on_pressed"]
+[connection signal="pressed" from="Control/Button" to="Control/Button" method="_on_red_button_pressed"]
